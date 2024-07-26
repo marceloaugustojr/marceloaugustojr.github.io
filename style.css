@@ -1,0 +1,69 @@
+
+
+.btns {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    margin-top: 5%;
+}
+
+.btn, a {
+    padding: 10px;
+    font-size: 2vw;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: aliceblue;
+    width: 20%;
+    height: 5vw;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+.btn-1 {
+    background-color: blue;
+}
+
+.btn-2 {
+    background-color: orangered;
+}
+
+.btn-3 {
+    background-color: greenyellow;
+}
+
+.container {
+    position: relative;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    margin-top: 5%;
+    width: 60vw;
+}
+.grafico {
+    position: relative;
+    display: flex;
+    justify-content: right;
+    margin: auto;
+    width: 50vw;
+    height: 50vh;
+    border: 1px solid black;
+    background-color: black;
+}
+
+.tabela {
+    background-image: url(https://adrianopataro.com.br/wp-content/uploads/2021/10/elementos-do-grafico-titulo-dinamico.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid black;
+    width: 37vw;
+    height: 29vh;
+}
